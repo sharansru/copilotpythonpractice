@@ -3,7 +3,7 @@
 def reverse_words(sentence):
     words = sentence.split()
     # Use Copilot to complete the code to reverse the words in the sentence
-    reversed_sentence = ' '.join(reversed(words[::-1]))
+    reversed_sentence = ' '.join(reversed(words))
     return reversed_sentence
 
 
